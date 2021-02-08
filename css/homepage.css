@@ -1,0 +1,16 @@
+.intro-homepage > .text {
+    padding: 20px;
+    background-color: #E5243B;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 600;
+}
+
+.intro-homepage > .text p {
+    margin: 0px;
+}
+
+.intro-homepage > .picture img{
+    width: 100%;
+}
