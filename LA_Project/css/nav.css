@@ -1,0 +1,59 @@
+.header-wrapper {
+    height: 220px;
+    background-color: #020122;
+    color: #E28413;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+/* Left Column */
+.header-wrapper > .goal1 {
+    height: 190px;
+    margin-right: 20px;
+}
+
+.header-wrapper > .goal1 img {
+    height: 190px;
+    width: auto;
+}
+/* Middle Column */
+.header-wrapper > .goal1title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: grid;
+}
+
+.header-wrapper > .goal1title > .icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-wrapper > .goal1title > .icons-wrapper > .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 200px;
+    padding: 2em;
+}
+
+/* Right Columun */
+.header-wrapper > .goalscover {
+    height: 190px;
+}
+
+.header-wrapper > .goalscover img {
+    height: 190px;
+}
+
+/* Links Columun */
+.header-wrapper > .nav-links-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.header-wrapper > .nav-links-wrapper a {
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #944BBB;
+    text-decoration: none;
+}
